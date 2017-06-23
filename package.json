@@ -1,12 +1,15 @@
 {
-  "name": "mashape-oauth",
-  "version": "0.1.71",
+  "name": "mashape-oauth-js",
+  "version": "0.1.73",
   "description": "Library for handling OAuth (1.0a, Echo, XAuth, and 2.0) Requests and Responses",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "dependencies": {},
+  "dependencies": {
+    "form-data": "^2.2.0",
+    "request": "^2.81.0"
+  },
   "devDependencies": {
     "mocha": "~1.8.2"
   },

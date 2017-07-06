@@ -1,4 +1,5 @@
 # Mashape OAuth
+> Add multipart/form-data support for oauth1.0.
 
 OAuth Modules for Node.js - Supporting RSA, HMAC, PLAINTEXT, 2-Legged, 3-Legged, 1.0a, Echo, XAuth, and 2.0
 
@@ -9,7 +10,7 @@ If you're looking for the popular OAuth Bible, [here it is](https://github.com/M
 # Installation
 
 ```
-npm install mashape-oauth
+npm install mashape-oauth-js
 ```
 
 # Features
@@ -38,7 +39,7 @@ Require the library and the one you wish to use.
 ### Using OAuth (1.x, XAuth, Echo):
 
 ```javascript
-var OAuth = require('mashape-oauth').OAuth;
+var OAuth = require('mashape-oauth-js').OAuth;
 var oa = new OAuth({ /* … options … */ }, callback);
 ```
 - `options` `Object` *OAuth request options*
